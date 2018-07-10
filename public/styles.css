@@ -3,11 +3,15 @@
 	box-sizing: border-box;
 }
 
-.col-1 {width: 20%;}
-.col-2 {width: 40%;}
-.col-3 {width: 60%;}
-.col-4 {width: 80%;}
-.col-5 {width:100%;}
+[class*="col-"]{width: 100%;} /*For mobile*/
+
+@media only screen and (min-width: 768px) { /*For Desktop*/
+	.col-1 {width: 20%;}
+	.col-2 {width: 40%;}
+	.col-3 {width: 60%;}
+	.col-4 {width: 80%;}
+	.col-5 {width:100%;}
+}
 
 [class*="col-"] {
 	float: left;
@@ -15,6 +19,17 @@
 	border: 1px solid red;
 }
 
+.row::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
 p {
 	color: green;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
 }
