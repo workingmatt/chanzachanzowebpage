@@ -2,6 +2,7 @@
 * {
 	box-sizing: border-box;
 	background-color: black;
+	font-family: Verdana, Geneva, sans-serif;
 }
 
 
@@ -19,7 +20,7 @@
 	float: left;
 	padding: 15px;
 	border: 0px solid red;
-	color: white;
+	color: #26AFEC;
 }
 
 .row::after{
@@ -30,13 +31,24 @@
 
 p {
 	text-align: center;
+	color: #f8af48;
 }
 
 h1 {
 	text-align: center;
+	vertical-align: top;
 	font-size: xx-large;
+	color:#26afec;
 }
 
+li {
+	text-align: center;
+	color: #64bb5c;
+}
+
+a {
+	color: #26AFEC;
+}
 img {
 	width: 100%;
 	height: auto;
