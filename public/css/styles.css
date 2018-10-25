@@ -9,11 +9,13 @@
 [class*="col-"]{width: 100%;} /*For mobile*/
 
 @media only screen and (min-width: 768px) { /*For Desktop*/
-	.col-1 {width: 20%;}
-	.col-2 {width: 40%;}
-	.col-3 {width: 60%;}
-	.col-4 {width: 80%;}
-	.col-5 {width:100%;}
+	.col-1 {width: 25%;}
+	.col-2 {width: 50%;}
+	.col-3 {width: 75%;}
+	.col-4 {width: 100%;}
+
+	.right > p{text-align: right;}
+	.left > p{text-align: left;}
 }
 
 [class*="col-"] {
@@ -39,6 +41,11 @@ h1 {
 	vertical-align: top;
 	font-size: xx-large;
 	color:#26afec;
+}
+
+h2 {
+	text-align: center;
+	vertical-align: top;
 }
 
 li {
