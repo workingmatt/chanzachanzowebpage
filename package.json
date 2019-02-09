@@ -1,7 +1,7 @@
 {
-  "name": "curator",
+  "name": "c2Webpage",
   "version": "1.0.0",
-  "description": "playing around with curator.io API",
+  "description": "Simple webpage for Chanza Chanzo Ltd.",
   "main": "server.js",
   "scripts": {
     "test": "test",
@@ -9,25 +9,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/workingmatt/curator.git"
+    "url": "https://bitbucket.org/workingmatt/c2webpage.git"
   },
   "keywords": [
-    "curator.io",
-    "API",
-    "experiment"
+    "Chanza Chanzo Ltd.",
+    "Webpage"
   ],
   "author": "Matt Mapleston",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/workingmatt/curator/issues"
+    "url": "https://bitbucket.org/WorkingMatt/c2webpage/addon/bucketboard/board"
   },
-  "homepage": "https://github.com/workingmatt/curator",
+  "homepage": "https://bitbucket.org/WorkingMatt/c2webpage",
   "dependencies": {
     "body-parser": "^1.17.2",
     "ejs": "^2.5.7",
     "express": "^4.15.4",
     "ip": "^1.1.5",
-    "is-online": "^7.0.0",
     "request": "^2.83.0",
     "request-promise": "^4.2.1"
   },
