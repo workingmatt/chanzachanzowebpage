@@ -2,6 +2,7 @@ const express = require('express');
 const app =  express();
 const bodyParser = require('body-parser');
 const ip = require('ip');
+var port = process.env.PORT || 1903;
 
 app.set('view engine','ejs');
 app.engine('html',require('ejs').renderFile);
@@ -22,5 +23,5 @@ app.get('/', (req,res) => {
 //app.post('/feed', (req,res) => {
 //	console.log("server.js /feed ");
 //})
-console.log("Server listening on "+ip.address()+":1903.");
-app.listen(1903)
+console.log("Server listening on "+ip.address()+":"+port);
+app.listen(port)
