@@ -46,8 +46,14 @@ h1 {
 h2 {
 	text-align: center;
 	vertical-align: top;
+	color:#26afec;
 }
 
+h3 {
+	text-align: center;
+	vertical-align: top;
+	color:#26afec;
+}
 li {
 	text-align: center;
 	color: #64bb5c;
