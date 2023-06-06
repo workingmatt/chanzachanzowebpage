@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/workingmatt/c2webpage.git"
+    "url": "https://github.com/workingmatt/chanzachanzowebpage.git"
   },
   "keywords": [
     "Chanza Chanzo Ltd.",
@@ -19,9 +19,9 @@
   "author": "Matt Mapleston",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://bitbucket.org/WorkingMatt/c2webpage/addon/bucketboard/board"
+    "url": "https://github.com/workingmatt/chanzachanzowebpage/issues"
   },
-  "homepage": "https://bitbucket.org/WorkingMatt/c2webpage",
+  "homepage": "https://www.chanzachanzo.com",
   "dependencies": {
     "body-parser": "^1.17.2",
     "ejs": "^2.5.7",
