@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/5365f171-49f4-4cac-85c3-53cfc521cafb/resourceGroups/chanzachanzo/providers/Microsoft.Web/sites/chanzachanzowebpage",
+    "appService.deploySubpath": "."
+}
